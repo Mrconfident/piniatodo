@@ -8,7 +8,6 @@
       v-model="newTaskName"
     />
     <button>Add Task</button>
-    // For Resetting the Store
     <button class="reset-button" @click="taskStore.$reset">Reset</button>
   </form>
 </template>
